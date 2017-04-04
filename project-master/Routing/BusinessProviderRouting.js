@@ -5,8 +5,8 @@ var LocalStrategy = require('passport-local').Strategy;
 var multer = require('multer');
 var crypto = require('crypto');
 var BusinessProvider = require('../models/BusinessProvider');
-var path = require('path');
-var flash = require('flash');
+var path = require('path'); // rodaina
+var flash = require('flash'); //Rodaina 
 
 
 router.use(function (req, res, next) {
@@ -254,7 +254,7 @@ router.post('BusinessProvider/register', function (req, res) {
 
 
       });
-var app=app = express();
+var app=app = express(); //rodaina
       app.use(flash());
 
       passport.serializeUser(function (user, done) {
