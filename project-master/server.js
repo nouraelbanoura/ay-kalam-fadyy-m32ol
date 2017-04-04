@@ -6,6 +6,7 @@ var router = require('./Routing/routes');
 var businessProviderRouting = require('./Routing/BusinessProviderRouting');
 var mongoose = require('mongoose');
 var DB_URI = "mongodb://localhost:27017/seproject";
+var app = express();
 
 
 
